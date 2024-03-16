@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
+    "dev": "nodemon dist/index.js",
     "start": "nodemon src/index.ts",
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
